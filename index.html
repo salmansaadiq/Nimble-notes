@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nimble Notes</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Nimble Notes</h1>
+    <form id="note-form">
+      <textarea id="note-input" placeholder="Write your note here..."></textarea>
+      <input type="file" id="image-upload" accept="image/*" />
+      <button type="submit">Save</button>
+    </form>
+    <div id="notes"></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
